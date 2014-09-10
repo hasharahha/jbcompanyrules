@@ -42,6 +42,7 @@ else{
 
 function Signup(){
 window.prompt("Please Enter group code", "Group code")
+window.alert("incorrect group code please see Jacob Bondley")
 }
 
 
