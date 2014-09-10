@@ -27,6 +27,10 @@ else if(u=="Joshua"&&p=="MD"){
 else if(u=="Devon"&&p=="SD"){
   window.location ='http://jbcompanyrules.blogspot.com/p/jab.html';
 }
+else if(u=="Colton"&&p=="MD"){
+  window.alert("welcome colton")
+  window.location ='http://jbcompanyrules.blogspot.com/p/jab.html';
+}
 else{
   window.alert("incorrect password")
 }
