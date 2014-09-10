@@ -40,8 +40,9 @@ else{
 
 }
 
-
-
+function Signup(){
+window.prompt("Please Enter group code", "Group code")
+}
 
 
 
