@@ -35,7 +35,9 @@ else if(u=="Colton"&&p=="MD"){
 else{
   window.alert("incorrect password")
   var guest = prompt("Please enter your name:", "here")
+  window.alert("sorry you must be a member")
 }
+
 }
 
 
