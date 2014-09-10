@@ -14,7 +14,7 @@ u = document.getElementById("username").value
 
 if(u=="JBteam"&&p=="JAB"){
 
-window.alert("Sorry please see system administrater"
+window.alert("Sorry please see system administrater")
 }
 else if(u=="HASHARAHHA14"&&p==="017964"){
 window.location ='http:///jbcompanyrules.blogspot.com/p/jab.html';
@@ -25,8 +25,7 @@ else if(u=="Joshua"&&p=="MD"){
   window.location ='http://jbcompanyrules.blogspot.com/p/jab.html';
 }
 else if(u=="Devon"&&p=="SD"){
-  window.alert("welcome devon")
-  Window.location ='http://jbcompanyrules.blogspot.com/p/jab.html';
+  window.location ='http://jbcompanyrules.blogspot.com/p/jab.html';
 }
 else{
   window.alert("incorrect password")
