@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
 
-
-<b> Username:</b>
-
-<input id="username" type="text" />
-
-<b> password:</b>
-<input id="password" type="pwd" />
-
-<button onclick="Auth()" type="button">Login</button>
-<br />
-<script>
 
 
 
@@ -50,6 +36,4 @@ window.prompt("please leave your name:", "here")
 
 
 
-
-</script>
 
