@@ -1,0 +1,13 @@
+#CommandPrompt{
+height: 100px;
+width: 750px;
+font-size: 150px;
+background-color: black;
+color: lightgreen;
+}
+#Button{
+height: 80px;
+width: 751px;
+background-color: gray;
+color: black;
+}
