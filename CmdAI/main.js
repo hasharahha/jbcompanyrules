@@ -1,4 +1,5 @@
 //basic command set-up
+alert("loading")
 /*
 This very basic system use if, else if statements to get the command and call it
 Made By Jacob Bondley 
