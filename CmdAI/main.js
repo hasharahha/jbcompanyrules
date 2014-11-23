@@ -34,7 +34,7 @@ function ProcCmd(){
     document.getElementById("userdata").value=Cache[2];
   }
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
-    var image = document.body.style.backgroundImage="url("+"+Cmd[2]+"+");"
+    document.getElementById("devtools").style.display='block';
   }
   else{
     log("Sorry this is unknown to ['console']");
@@ -44,4 +44,10 @@ function ProcCmd(){
 function save(){
   Cache[1] = document.getElementById("userdata").value;
   localStorage.setItem("save", Cache[1]);
+}
+
+function Edit(){
+ var color = document.getElementById("color").value;
+ document.body.style.backgroundColor=color;
+}
 }
