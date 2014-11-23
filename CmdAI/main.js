@@ -12,7 +12,7 @@ function ProcCmd(){
   Cmd = command.split(" ");
   //basic required Commands
   if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load")
+    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n ")
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
