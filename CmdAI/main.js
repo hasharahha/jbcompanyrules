@@ -28,6 +28,14 @@ function ProcCmd(){
   else if(Cmd[0]=="/write"){
     document.getElementById("Data").style.display='block';
   }
+  else if(Cmd[0]=="/load"){
+    document.getElementById("Data").style.display='block';
+    Cache[2] = localStorage.getItem("save");
+    document.getElementById("userdata").value=Cache[2];
+  }
 }
 
-
+function save(){
+  Cache[1] = document.getElementById("userdata").value;
+  localStorage.setItem("save", Cache[1]);
+}
