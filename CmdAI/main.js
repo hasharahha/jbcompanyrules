@@ -1,5 +1,6 @@
 //basic command set-up
 var Cache =[];
+alert("Loading")
 var OPS =["Jacob", "Devon"]
 var command;
 var Cmd;
