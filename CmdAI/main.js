@@ -33,6 +33,9 @@ function ProcCmd(){
     Cache[2] = localStorage.getItem("save");
     document.getElementById("userdata").value=Cache[2];
   }
+  else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
+    var image = document.body.style.backgroundImage="url("+"+Cmd[2]+"+");"
+  }
   else{
     log("Sorry this is unknown to ['console']");
   }
