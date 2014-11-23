@@ -6,4 +6,4 @@ CACHE MANIFEST
 NETWORK:
 *
 FALLBACK:
-/server/ offline.html
+/server/ /offline.html
