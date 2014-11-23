@@ -67,3 +67,11 @@ function Edit(){
  document.getElementById("body").style.backgroundColor=color;
 }
 
+
+function Space(event){
+  var saved = document.getElementById("CommandPrompt").value;
+  if(32 === event.keyCode){
+    document.getElementById("CommandPrompt").value=saved+' ';
+  }
+  
+}
