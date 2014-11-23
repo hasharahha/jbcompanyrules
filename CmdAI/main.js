@@ -11,7 +11,7 @@ function ProcCmd(){
   Cmd = command.split(" ");
   //basic required Commands
   if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n ")
+    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n /round \n /ban ")
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
@@ -35,6 +35,13 @@ function ProcCmd(){
   }
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
     document.getElementById("devtools").style.display='block';
+  }
+  else if(Cmd[0]=="/ban"){
+    log(Cmd[2]+" Has been baned!");
+  }
+  else if(Cmd[0]=="/round"){
+    var roundedNumber = Math.round(Cmd[1]);
+    log(Cmd[1]+" When rounded is "+roundedNumber);
   }
   else{
     log("Sorry this is unknown to ['console']");
