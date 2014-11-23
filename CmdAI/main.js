@@ -17,12 +17,12 @@ function ProcCmd(){
     var answer = eval(Cmd[1]);
     log("Answer: \n"+answer);
   }
-  else if(Cmd[0]=="/op"&&Cmd[0] != undefined){
+  else if(Cmd[0]=="/op"&&Cmd[0] != "undefined"){
     log(Cmd[1]+" Has Been switched to op")
     OPS[3] =Cmd[1];
     //No Php no save, no server
   }
-  else if(Cmd[0]=="/deop"&&Cmd[0] != undefined){
+  else if(Cmd[0]=="/deop"&&Cmd[0] != "undefined"){
     log(Cmd[1]+" Has Been Deoped")
   }
 }
