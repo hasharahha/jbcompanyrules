@@ -1,4 +1,11 @@
 //basic command set-up
+/*
+This very basic system use if, else if statements to get the command and call it
+Made By Jacob Bondley 
+You have permision to use this, Give credit
+Jacob Adrien Bondley
+
+*/
 var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
