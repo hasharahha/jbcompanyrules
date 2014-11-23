@@ -11,7 +11,7 @@ function ProcCmd(){
   Cmd = command.split(" ");
   //basic required Commands
   if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write")
+    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load")
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
@@ -32,6 +32,9 @@ function ProcCmd(){
     document.getElementById("Data").style.display='block';
     Cache[2] = localStorage.getItem("save");
     document.getElementById("userdata").value=Cache[2];
+  }
+  else{
+    log("Sorry this is unknown to ['console']");
   }
 }
 
