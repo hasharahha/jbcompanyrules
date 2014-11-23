@@ -64,5 +64,6 @@ function Edit(){
  var color = document.getElementById("color").value;
  document.body.style.backgroundColor=color;
  document.getElementById("devtools").style.display='none';
+ document.getElementById("body").style.backgroundColor=color;
 }
 
