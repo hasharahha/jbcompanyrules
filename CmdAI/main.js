@@ -11,7 +11,7 @@ function ProcCmd(){
   Cmd = command.split(" ");
   //basic required Commands
   if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop")
+    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write")
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
@@ -25,4 +25,9 @@ function ProcCmd(){
   else if(Cmd[0]=="/deop"&&Cmd[0] != "undefined"){
     log(Cmd[1]+" Has Been Deoped")
   }
+  else if(Cmd[0]=="/write"){
+    document.getElementById("Data").style.display='block';
+  }
 }
+
+
