@@ -63,9 +63,24 @@ color: black;
 </html>
 <h1 id="Dstorage">Max Storage: 10</h1>
 <script>
+var data = 10;
+setInterval("Dislay()", "500");
   function SetStorage(){
-    var data = document.getElementById("storage").value;
+    data = document.getElementById("storage").value;
     document.getElementById("Dstorage").innerHTML='Max storage: '+data;
     
   }
+function Display(){
+  data = document.getElementById("storage").value;
+  document.getElementById("Dstorage").innerHTML='Max storage:'+data;
+  if(data===0){
+    document.body.style.display='none';
+  }
+  else if(data===1){
+    document.body.style.backgroundColor='white';
+  }
+  else{
+    document.body.style.backgroundColor='black';
+  }
+}
 </script>
