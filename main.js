@@ -40,6 +40,13 @@ function ProcCmd(){
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
     document.getElementById("devtools").style.display='block';
   }
+  else if(Cmd[0]=="/add"&&Cmd[0]=="command"){
+    var NewCommand = prompt("Add command, function", "/command function");
+    var NC = NewCommand.split(" ");
+    
+    document.getElementById("Cmd").value="Email: hasharahha@gmail.com \n"+"Command: "+NC[0]+"\n Function"NC[1]+" "+NC[2]+" "+NC[3];
+    document.getElementById("add").style.display="block";
+  }
   else{
     log("Sorry this is unknown to ['console']");
   }
