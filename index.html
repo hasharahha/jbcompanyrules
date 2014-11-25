@@ -47,7 +47,7 @@ color: black;
 </div>
 
 <input type="text" id="CommandPrompt">
-<button id="Button" onclick="ProcCmd()" type="button">Call Command</button>
+<button id="Button" onclick="Check()" type="button">Call Command</button>
 
 <div id="Data" style="display: none;">
   <textarea id="userdata" rows="12" cols="65" style="background-color: black; color: green; font-size: 12px;"></textarea>
@@ -85,4 +85,16 @@ function Display(){
     document.body.style.backgroundColor='black';
   }
 }
+</script>
+<script>
+var allow ="true";
+  function Check(){
+    if(allow=="true"){
+      ProcCmd();
+    }
+    else{
+      alert("Not enough storage");
+    }
+  }
+  
 </script>
