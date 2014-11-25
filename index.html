@@ -84,8 +84,10 @@ function Display(){
   else if(data=="2"){
     allow ="false";
   }
-  else if(data=="25"){
+  else if(data >="24"){
     document.body.style.backgroundImage="url('https://dl.dropboxusercontent.com/s/fa3bqi830l4r8bl/cf7a72_3820392.jpg')";
+    document.getElementById("storage").max="100";
+    document.getElementById("storage").min="25";
   }
   else{
     document.body.style.backgroundColor='black';
