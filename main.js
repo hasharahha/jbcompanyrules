@@ -3,6 +3,7 @@ var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
 var Cmd;
+var allow ="true"
 var log = function(msg){
   confirm("Console: \n"+msg);
 };
@@ -10,7 +11,10 @@ function ProcCmd(){
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.split(" ");
   //basic required Commands
-  if(Cmd[0]=="/help"){
+  if(allow=="false"){
+    alert("Not Enough Storage");
+  }
+  else if(Cmd[0]=="/help"){
     log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n ")
   }
   else if(Cmd[0]=="/calculate"){
