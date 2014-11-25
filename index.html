@@ -68,7 +68,7 @@ color: black;
 <input type="range" min="0" max="25" onclick="SetStorage()" value="10" id="storage">
 </html>
 <h1 id="Dstorage">Max Storage set: 10</h1>
-<h2 style="color: blue;" id="used">Storage used: 3 min</h2>
+<h2 style="color: blue;" id="used">Storage used: 3 Mbs</h2>
 <script>
 var data = 10;
 setInterval("Display()", "100");
@@ -79,7 +79,7 @@ setInterval("Display()", "100");
   }
 function Display(){
   data = document.getElementById("storage").value;
-  document.getElementById("Dstorage").innerHTML='Max storage:'+data;
+  document.getElementById("Dstorage").innerHTML='Max storage:'+data+' Mbs'
   if(data=="0"){
     document.body.style.display='none';
     
