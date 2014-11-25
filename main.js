@@ -44,7 +44,7 @@ function ProcCmd(){
     var NewCommand = prompt("Add command, function", "/command function");
     var NC = NewCommand.split(" ");
     
-    document.getElementById("Cmd").value="Email: hasharahha@gmail.com \n"+"Command: "+NC[0]+"\n Function"NC[1]+" "+NC[2]+" "+NC[3];
+    document.getElementById("Cmd").value=NC[0]+NC[1];
     document.getElementById("add").style.display="block";
   }
   else{
