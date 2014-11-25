@@ -56,5 +56,14 @@ color: black;
   <input id="color" type="color"><button onclick="Edit()" type="button">Save</button>
   
 </div>
-<input type="range" min="0" max="10">
+<h1>Intelligence Storage settings:</h1>
+<input type="range" min="0" max="25" onclick="SetStorage()" value="10" id="storage">
 </html>
+<h1 id="Dstorage">Max Storage: 10</h1>
+<script>
+  function SetStorage(){
+    var data = document.getElementById("storage").value
+    
+    
+  }
+</script>
