@@ -40,7 +40,7 @@ function ProcCmd(){
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
     document.getElementById("devtools").style.display='block';
   }
-  else if(Cmd[0]=="/add"&&Cmd[0]=="command"){
+  else if(Cmd[0]=="/add"&&Cmd[1]=="command"){
     var NewCommand = prompt("Add command, function", "/command function");
     var NC = NewCommand.split(" ");
     
