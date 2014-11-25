@@ -38,8 +38,10 @@ color: black;
   color: lightgreen;
 }
 #storage{
-  width: 650px;
+  width: 850px;
   background-color: blue;
+  border: none;
+  background: blue;
 }
 #Dstorage{
   color: white;
@@ -65,10 +67,11 @@ color: black;
 <h1 style="color: white;">Intelligence Storage settings:</h1>
 <input type="range" min="0" max="25" onclick="SetStorage()" value="10" id="storage">
 </html>
-<h1 id="Dstorage">Max Storage: 10</h1>
+<h1 id="Dstorage">Max Storage set: 10</h1>
+<h2 style="color: blue;" id="used">Storage used: 3 min</h2>
 <script>
 var data = 10;
-setInterval("Display()", "500");
+setInterval("Display()", "100");
   function SetStorage(){
     data = document.getElementById("storage").value;
     document.getElementById("Dstorage").innerHTML='Max storage: '+data;
