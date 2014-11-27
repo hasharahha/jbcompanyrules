@@ -3,6 +3,7 @@ var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
 var Cmd;
+var Energy =10;
 var allow ="true"
 var log = function(msg){
   confirm("Console: \n"+msg);
@@ -62,3 +63,14 @@ function Edit(){
  document.body.style.backgroundColor=color;
  document.getElementById("devtools").style.display='none';
 }
+
+function UpdateEnergy(){
+  if(Energy=="9"){
+    
+  }
+}
+
+
+
+
+
