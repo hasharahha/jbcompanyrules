@@ -139,4 +139,11 @@ function Uncharge(){
   energy -=1;
 }
 
+var Ucache ="Data";
+setInterval("SAVE()", "100");
+
+function SAVE(){
+Ucache +="data";
+localStorage.setItem("DATA", Ucache)
+}
 
