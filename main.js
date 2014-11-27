@@ -73,6 +73,7 @@ document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡';
 }
 else if(energy=="7"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡';
+
 }
 else if(energy=="6"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡';
@@ -82,21 +83,30 @@ else if(energy=="5"){
 }
 else if(energy=="4"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡';
+  allow ="true"
 }
 else if(energy=="3"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡';
+  allow ="true";
 }
 else if(energy=="2"){
   document.getElementById("Energy").innerHTML='⚡⚡';
+  allow ="true";
 }
 else if(energy=="1"){
   document.getElementById("Energy").innerHTML='⚡';
+  allow ="true";
 }
 else if(energy=="0"){
   document.getElementById("Energy").innerHTML='';
+  allow ="false";
 }
 else if(energy=="10"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡';
+  allow ="true";
+}
+else{
+  energy =10;
 }
 
 }
