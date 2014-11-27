@@ -1,4 +1,11 @@
 //basic command set-up
+/*
+This very basic system use if, else if statements to get the command and call it
+Made By Jacob Bondley 
+You have permision to use this, Give credit
+Jacob Adrien Bondley
+
+*/
 var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
@@ -11,7 +18,7 @@ function ProcCmd(){
   Cmd = command.split(" ");
   //basic required Commands
   if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n ")
+    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n /round \n /ban ")
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
@@ -36,6 +43,13 @@ function ProcCmd(){
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
     document.getElementById("devtools").style.display='block';
   }
+  else if(Cmd[0]=="/ban"){
+    log(Cmd[2]+" Has been baned!");
+  }
+  else if(Cmd[0]=="/round"){
+    var roundedNumber = Math.round(Cmd[1]);
+    log(Cmd[1]+" When rounded is "+roundedNumber);
+  }
   else{
     log("Sorry this is unknown to ['console']");
   }
@@ -50,5 +64,14 @@ function Edit(){
  var color = document.getElementById("color").value;
  document.body.style.backgroundColor=color;
  document.getElementById("devtools").style.display='none';
+ document.getElementById("body").style.backgroundColor=color;
 }
 
+
+function Space(event){
+  var saved = document.getElementById("CommandPrompt").value;
+  if(32 === event.keyCode){
+    document.getElementById("CommandPrompt").value=saved+' ';
+  }
+  
+}
