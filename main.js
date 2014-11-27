@@ -141,8 +141,6 @@ function Uncharge(){
 Start();
 function Start(){
   if(localStorage.getItem("Data") != undefined){
-    
-  
 var Ucache = localStorage.getItem("Data");
 setInterval("Saved()", "1");
 var Number =0;
