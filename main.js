@@ -9,6 +9,7 @@ var log = function(msg){
   confirm("Console: \n"+msg);
 };
 function ProcCmd(){
+  energy -=1;
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.split(" ");
   //basic required Commands
@@ -67,19 +68,23 @@ setInterval("UpdateEnergy()", "200");
 function UpdateEnergy(){
   if(energy=="9"){
     document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡';
+    allow ="true";
   }
 else if(energy=="8"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡';
+allow ="true"
 }
 else if(energy=="7"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡';
-
+allow ="true";
 }
 else if(energy=="6"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡';
+  allow ="true";
 }
 else if(energy=="5"){
   documnt.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡';
+  allow ="true";
 }
 else if(energy=="4"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡';
