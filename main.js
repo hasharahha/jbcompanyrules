@@ -120,6 +120,9 @@ else if(energy=="10"){
   allow ="true";
 document.body.style.display='block';
 }
+else if(energy=="-1"){
+  energy =0;
+}
 else{
   energy =10;
 }
