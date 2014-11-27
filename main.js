@@ -69,6 +69,7 @@ function UpdateEnergy(){
   if(energy=="9"){
     document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡';
     allow ="true";
+    document.getElementById("storage").setAttribute("min", "1");
 document.body.style.display='block';
   }
 else if(energy=="8"){
@@ -109,6 +110,7 @@ document.body.style.display='block';
 else if(energy=="1"){
   document.getElementById("Energy").innerHTML='⚡';
 document.body.style.display='block';
+
   allow ="true";
 }
 else if(energy=="0"){
@@ -118,6 +120,7 @@ else if(energy=="0"){
 else if(energy=="10"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡';
   allow ="true";
+  document.getElementById("storage").setAttribute("min", "2");
 document.body.style.display='block';
 }
 else if(energy=="-1"){
