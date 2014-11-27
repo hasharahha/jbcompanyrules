@@ -146,7 +146,9 @@ setInterval("Saved()", "1");
 var Number =0;
 }
 else{
-  localStorage.setItem("Data", "0");
+  log("Error")
+  var Ucache ="B";
+  setInterval("Saved()", "1");
 }
 }
 function Saved(){
