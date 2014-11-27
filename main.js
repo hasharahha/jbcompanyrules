@@ -138,23 +138,13 @@ function Charge(){
 function Uncharge(){
   energy -=1;
 }
-setTimeout("Start()", "3000")
-function Start(){
-  if(localStorage.getItem("Data") != undefined){
+setInterval("Saved()", "1")
 var Ucache = localStorage.getItem("Data");
-setInterval("Saved()", "1");
 var Number =0;
-}
-else{
-  log("Error")
-  var Ucache ="B";
-  setInterval("Saved()", "1");
-}
-}
 function Saved(){
 Ucache = Ucache+"B";
 Number +=1;
-document.getElementById("S1").innerHTML='#'+Number;
+document.getElementById("S1").innerHTML=Number;
 localStorage.setItem("Data", Ucache)
 }
 
