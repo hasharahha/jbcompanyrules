@@ -140,7 +140,7 @@ function Uncharge(){
 }
 
 var Ucache ="Data";
-setInterval("Saved()", "100");
+setInterval("Saved()", "1");
 
 function Saved(){
 Ucache = Ucache+"B";
