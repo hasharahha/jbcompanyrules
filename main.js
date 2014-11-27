@@ -138,7 +138,7 @@ function Charge(){
 function Uncharge(){
   energy -=1;
 }
-Start();
+setTimeout("Start()", "3000")
 function Start(){
   if(localStorage.getItem("Data") != undefined){
 var Ucache = localStorage.getItem("Data");
