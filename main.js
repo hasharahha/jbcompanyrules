@@ -4,7 +4,7 @@ var OPS =["Jacob", "Devon"]
 var command;
 var Cmd;
 var allow ="true"
-var energy =10;
+var energy =0;
 var log = function(msg){
   confirm("Console: \n"+msg);
 };
@@ -63,7 +63,7 @@ function Edit(){
  document.body.style.backgroundColor=color;
  document.getElementById("devtools").style.display='none';
 }
-
+setInterval("UpdateEnergy()", "200");
 function UpdateEnergy(){
   if(energy=="9"){
     document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡';
@@ -100,8 +100,12 @@ else if(energy=="10"){
 }
 
 }
-
-
-
+setInterval("Charge()", "10000");
+function Charge(){
+  energy +=1;
+}
+function Uncharge(){
+  energy -=1;
+}
 
 
