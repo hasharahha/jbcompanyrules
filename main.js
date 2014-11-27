@@ -74,6 +74,13 @@ document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡';
 else if(energy=="7"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡';
 }
+else if(energy=="6"){
+  document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡';
+}
+else if(energy=="5"){
+  documnt.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡';
+}
+
 }
 
 
