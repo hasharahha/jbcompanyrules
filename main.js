@@ -80,6 +80,15 @@ else if(energy=="6"){
 else if(energy=="5"){
   documnt.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡';
 }
+else if(energy=="4"){
+  document.getElementById("Energy").innerHTML='';
+}
+else if(energy=="3"){
+  document.getElementById("Energy").innerHTML='';
+}
+else if(energy=="2"){
+  
+}
 
 }
 
