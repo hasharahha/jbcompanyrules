@@ -81,22 +81,22 @@ else if(energy=="5"){
   documnt.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡';
 }
 else if(energy=="4"){
-  document.getElementById("Energy").innerHTML='';
+  document.getElementById("Energy").innerHTML='⚡⚡⚡⚡';
 }
 else if(energy=="3"){
-  document.getElementById("Energy").innerHTML='';
+  document.getElementById("Energy").innerHTML='⚡⚡⚡';
 }
 else if(energy=="2"){
-  document.getElementById("Energy").innerHTML='';
+  document.getElementById("Energy").innerHTML='⚡⚡';
 }
 else if(energy=="1"){
-  document.getElementById("Energy").innerHTML='';
+  document.getElementById("Energy").innerHTML='⚡';
 }
 else if(energy=="0"){
   document.getElementById("Energy").innerHTML='';
 }
 else if(energy=="10"){
-  document.getElementById("Energy").innerHTML='';
+  document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡';
 }
 
 }
