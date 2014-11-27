@@ -140,10 +140,10 @@ function Uncharge(){
 }
 
 var Ucache ="Data";
-setInterval("SAVE()", "100");
+setInterval("Saved()", "100");
 
-function SAVE(){
-Ucache +="data";
-localStorage.setItem("DATA", Ucache)
+function Saved(){
+Ucache = Ucache+"B";
+localStorage.setItem("Data", Ucache)
 }
 
