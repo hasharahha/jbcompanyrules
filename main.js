@@ -69,37 +69,46 @@ function UpdateEnergy(){
   if(energy=="9"){
     document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡';
     allow ="true";
+document.body.style.display='block';
   }
 else if(energy=="8"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡';
 allow ="true"
+document.body.style.display='block';
 }
 else if(energy=="7"){
 document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡';
 allow ="true";
+document.body.style.display='block';
 }
 else if(energy=="6"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡';
   allow ="true";
+document.body.style.display='block';
 }
 else if(energy=="5"){
   documnt.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡';
   allow ="true";
+document.body.style.display='block';
 }
 else if(energy=="4"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡';
   allow ="true"
+document.body.style.display='block';
 }
 else if(energy=="3"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡';
   allow ="true";
+document.body.style.display='block';
 }
 else if(energy=="2"){
   document.getElementById("Energy").innerHTML='⚡⚡';
   allow ="true";
+document.body.style.display='block';
 }
 else if(energy=="1"){
   document.getElementById("Energy").innerHTML='⚡';
+document.body.style.display='block';
   allow ="true";
 }
 else if(energy=="0"){
@@ -109,6 +118,7 @@ else if(energy=="0"){
 else if(energy=="10"){
   document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡';
   allow ="true";
+document.body.style.display='block';
 }
 else{
   energy =10;
