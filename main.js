@@ -139,11 +139,13 @@ function Uncharge(){
   energy -=1;
 }
 
-var Ucache ="Data";
+var Ucache = localStorage.getItem("Data");
 setInterval("Saved()", "1");
-
+var Number =0;
 function Saved(){
 Ucache = Ucache+"B";
+Number +=1;
+document.getElementById("S1").innerHTML=Number;
 localStorage.setItem("Data", Ucache)
 }
 
