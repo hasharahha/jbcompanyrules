@@ -3,8 +3,8 @@ var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
 var Cmd;
-var Energy =10;
 var allow ="true"
+var energy =10;
 var log = function(msg){
   confirm("Console: \n"+msg);
 };
@@ -65,9 +65,15 @@ function Edit(){
 }
 
 function UpdateEnergy(){
-  if(Energy=="9"){
-    
+  if(energy=="9"){
+    document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡⚡';
   }
+else if(energy=="8"){
+document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡⚡';
+}
+else if(energy=="7"){
+document.getElementById("Energy").innerHTML='⚡⚡⚡⚡⚡⚡⚡';
+}
 }
 
 
