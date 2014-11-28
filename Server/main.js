@@ -2,6 +2,7 @@ var players =["Etho", "Docm77", "sethbling", "captainsparklez", "ZexyZek", "Hero
 var Selected_player =[];
 var Online =[];
 var split =", ";
+var Chat ="off";
 Selected_player[0] = Math.floor(Math.random()*11);
 Selected_player[1] = Math.floor(Math.random()*16);
 Selected_player[2] = Math.floor(Math.random()*6);
@@ -13,4 +14,6 @@ Online[2] = players[Selected_player[2]];
 Online[3] = players[Selected_player[3]];
 Online[4] = players[Selected_player[4]];
 
-confirm("Server: IP:************ Port: **** \n Online Players: \n"+" "+Online[0]+split+Online[1]+split+Online[2]+split+Online[3]+split+Online[4]);
+confirm("Server: IP:************ Port: ***** \n Online Players: \n"+" "+Online[0]+split+Online[1]+split+Online[2]+split+Online[3]+split+Online[4]);
+
+
