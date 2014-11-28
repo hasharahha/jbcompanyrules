@@ -18,7 +18,7 @@ function ProcCmd(){
     system.log("Jarvis: "+answer);
   }
   else{
-    system.log(Jarvis: "+"I don't know sir!");
+    system.log("Jarvis: "+"I don't know sir!");
   }
   //basic required Commands
 }
