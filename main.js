@@ -55,7 +55,7 @@ function ProcCmd(){
   }
   else{
     log("Sorry this is unknown to ['console']");
-    system.log("The Command:"+" "+command+" "+"Was not found in Source:[/main.js]")
+    system.log("The Command:"+" "+command+" "+"Was not found")
   }
 }
 
