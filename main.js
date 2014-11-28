@@ -53,6 +53,9 @@ function ProcCmd(){
     document.getElementById("Cmd").value=NC[0]+" "+NC[1];
     document.getElementById("add").style.display="block";
   }
+  else if(Cmd[0]=="hello"){
+    system.log("<CONSOLE>; "+"Hello")
+  }
   else{
     log("Sorry this is unknown to ['console']");
     system.log("The Command:"+" "+command+" "+"Was not found")
