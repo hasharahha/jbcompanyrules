@@ -11,8 +11,15 @@ var log = function(msg){
 function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
-  Cmd = command.split(" ");
-  system.log(command);
+  Cmd = command.toLowerCase();
+  system.log("<p class='us'>"+"You: "command+"</p>");
+  if(Responces[Cmd]){
+    var answer = Responces[Cmd];
+    system.log("<p class='jarvis'>"+"Jarvis: "+answer)
+  }
+  else{
+    system.log("<p class='jarvis'>"+"Jarvis: "+"I don't know sir!")
+  }
   //basic required Commands
 }
 
