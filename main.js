@@ -14,52 +14,6 @@ function ProcCmd(){
   Cmd = command.split(" ");
   system.log(command);
   //basic required Commands
-  if(allow=="false"){
-    alert("Not Enough Storage");
-  }
-  else if(Cmd[0]=="/help"){
-    log("Help list 1 of 1 \n /calculate \n /op \n /deop \n /write \n /load \n /edit <background | font> \n ")
-  }
-  else if(Cmd[0]=="/calculate"){
-    var answer = eval(Cmd[1]);
-    system.log("Calculating: "+answer);
-    log("Answer: \n"+answer);
-  }
-  else if(Cmd[0]=="/op"&&Cmd[0] != "undefined"){
-    log(Cmd[1]+" Has Been switched to op")
-    OPS[3] =Cmd[1];
-    system.log("Player: "+Cmd[1]+" Was not found")
-    //No Php no save, no server
-  }
-  else if(Cmd[0]=="/deop"&&Cmd[0] != "undefined"){
-    log(Cmd[1]+" Has Been Deoped")
-  }
-  else if(Cmd[0]=="/write"){
-    document.getElementById("Data").style.display='block';
-  }
-  else if(Cmd[0]=="/load"){
-    document.getElementById("Data").style.display='block';
-    Cache[2] = localStorage.getItem("save");
-    document.getElementById("userdata").value=Cache[2];
-  }
-  else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
-    document.getElementById("devtools").style.display='block';
-    system.log("Background unable to update, Console won't allow")
-  }
-  else if(Cmd[0]=="/add"&&Cmd[1]=="command"){
-    var NewCommand = prompt("Add command, function", "/command function");
-    var NC = NewCommand.split(" ");
-    
-    document.getElementById("Cmd").value=NC[0]+" "+NC[1];
-    document.getElementById("add").style.display="block";
-  }
-  else if(Cmd[0]=="hello"){
-    system.log("<CONSOLE>Console:  Hello</CONSOLE>")
-  }
-  else{
-    log("Sorry this is unknown to ['console']");
-    system.log("The Command:"+" "+command+" "+"Was not found")
-  }
 }
 
 function save(){
