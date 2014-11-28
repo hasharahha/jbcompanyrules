@@ -54,7 +54,7 @@ function ProcCmd(){
     document.getElementById("add").style.display="block";
   }
   else if(Cmd[0]=="hello"){
-    system.log("<CONSOLE>; "+"Hello")
+    system.log("<CONSOLE>Console:  Hello</CONSOLE>")
   }
   else{
     log("Sorry this is unknown to ['console']");
