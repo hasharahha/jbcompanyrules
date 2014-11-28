@@ -22,6 +22,7 @@ function ProcCmd(){
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
+    system.log("Calculating: "+command+" Answer: "+answer);
     log("Answer: \n"+answer);
   }
   else if(Cmd[0]=="/op"&&Cmd[0] != "undefined"){
