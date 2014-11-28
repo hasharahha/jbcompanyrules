@@ -15,10 +15,10 @@ function ProcCmd(){
   system.log("<p class='us'>"+"You: "command+"</p>");
   if(Responces[Cmd]){
     var answer = Responces[Cmd];
-    system.log("<p class='jarvis'>"+"Jarvis: "+answer)
+    system.log("<p class='jarvis'>"+"Jarvis: "+answer);
   }
   else{
-    system.log("<p class='jarvis'>"+"Jarvis: "+"I don't know sir!")
+    system.log("<p class='jarvis'>"+"Jarvis: "+"I don't know sir!");
   }
   //basic required Commands
 }
