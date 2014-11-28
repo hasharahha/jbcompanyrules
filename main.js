@@ -22,12 +22,13 @@ function ProcCmd(){
   }
   else if(Cmd[0]=="/calculate"){
     var answer = eval(Cmd[1]);
-    system.log("Calculating: "+command+" Answer: "+answer);
+    system.log("Calculating: "+answer);
     log("Answer: \n"+answer);
   }
   else if(Cmd[0]=="/op"&&Cmd[0] != "undefined"){
     log(Cmd[1]+" Has Been switched to op")
     OPS[3] =Cmd[1];
+    system.log("Player: "+Cmd[1]+" Was not found")
     //No Php no save, no server
   }
   else if(Cmd[0]=="/deop"&&Cmd[0] != "undefined"){
