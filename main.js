@@ -12,6 +12,7 @@ function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.split(" ");
+  system.log(command);
   //basic required Commands
   if(allow=="false"){
     alert("Not Enough Storage");
