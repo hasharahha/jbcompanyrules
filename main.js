@@ -12,7 +12,7 @@ function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
-  system.log("<p class='us'>"+"You: "command+"</p>");
+  system.log("<p class='us'>"+"You: "+command+"</p>");
   if(Responces[Cmd]){
     var answer = Responces[Cmd];
     system.log("<p class='jarvis'>"+"Jarvis: "+answer);
