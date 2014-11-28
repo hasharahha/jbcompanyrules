@@ -12,13 +12,13 @@ function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
-  system.log("<p class='us'>"+"You: "+command+"</p>");
+  system.log(You: "+command);
   if(Responces[Cmd]){
     var answer = Responces[Cmd];
-    system.log("<p class='jarvis'>"+"Jarvis: "+answer);
+    system.log("Jarvis: "+answer);
   }
   else{
-    system.log("<p class='jarvis'>"+"Jarvis: "+"I don't know sir!");
+    system.log(Jarvis: "+"I don't know sir!");
   }
   //basic required Commands
 }
