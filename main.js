@@ -42,6 +42,7 @@ function ProcCmd(){
   }
   else if(Cmd[0]=="/edit"&&Cmd[1]=="background"){
     document.getElementById("devtools").style.display='block';
+    system.log("Background unable to update, Console won't allow")
   }
   else if(Cmd[0]=="/add"&&Cmd[1]=="command"){
     var NewCommand = prompt("Add command, function", "/command function");
@@ -52,7 +53,7 @@ function ProcCmd(){
   }
   else{
     log("Sorry this is unknown to ['console']");
-    system.log("The Command:"+" "+command+" "+"Was not found /main.js")
+    system.log("The Command:"+" "+command+" "+"Was not found in Source:[/main.js]")
   }
 }
 
