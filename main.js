@@ -12,12 +12,11 @@ var log = function(msg){
 function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
-  var CMD = command.split(" ");
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   answer = ErrorResponce[Cmd][Rnd];
-  if(Responces[Cmd] !="undefined"){
+  if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
   }
   system.log("Jarvis: "+answer);
