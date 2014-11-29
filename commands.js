@@ -59,5 +59,6 @@ var Responces ={
 "tell me a joke":["Okay Your Mama is so fat she has a real horse on here polo shirt", "Okay your mama is like a bag of chips Fri-to-lay", "Your mama is so stupid she got fired from a blow job", "Yo mama is so fat here ass has it's own congressman", "Yo Mama is so skanky if you put your ear to her butt you can here the ocean", "Your mama has more crabs than redLobster", "Your mama is so fat she shows up on radar"],
 "are you mad?":["yes", "no", "maybe", "fuck off"],
 "are you mad":["yessss", "No", "Maybe", "wtf since when did you care"],
-"what is your favorite show":["leverage", "mavel's Iron man"]
+"what is your favorite show":["leverage", "mavel's Iron man"],
+"why":["Guess!", "I refuse to answer", "Leave me alone", "Shut up bitch", "because your stupid and im stuck here for life"]
 };
