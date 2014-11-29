@@ -16,9 +16,10 @@ function ProcCmd(){
   system.log("You: "+command);
   Rnd = Math.floor(Math.random()*16);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  answer = ErrorResponce[msg][Rnd];
-  if(Responces[Cmd])
+  answer = ErrorResponce["msg"][Rnd];
+  if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
+  }
   system.log("Jarvis: "+answer);
 
   //basic required Commands
