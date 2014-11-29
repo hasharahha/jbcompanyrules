@@ -2,6 +2,7 @@
 var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
+va answer;
 var Cmd;
 var allow ="true"
 var energy =0;
@@ -15,8 +16,8 @@ function ProcCmd(){
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  var answer = Responces[Cmd][RandKey];
-  if(Responces[Cmd]){
+  if(Responces[command.toLowerCase()]){
+    answer = Responces[Cmd][RandKey];
     system.log("Jarvis: "+answer);
   }
 else{
