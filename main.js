@@ -16,14 +16,11 @@ function ProcCmd(){
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
+  answer = ErrorResponce[Cmd][Rnd];
   if(Responces[Cmd] !="undefined"){
     answer = Responces[Cmd][RandKey];
-    system.log("Jarvis: "+answer);
   }
-else{
-answer = ErrorResponce[msg][Rnd];
-system.log("Jarvis: "+answer);
-}
+  system.log("Jarvis: "+answer);
 
   //basic required Commands
 }
