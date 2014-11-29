@@ -60,5 +60,11 @@ var Responces ={
 "are you mad?":["yes", "no", "maybe", "fuck off"],
 "are you mad":["yessss", "No", "Maybe", "wtf since when did you care"],
 "what is your favorite show":["leverage", "mavel's Iron man"],
-"why":["Guess!", "I refuse to answer", "Leave me alone", "Shut up bitch", "because your stupid and im stuck here for life"]
+"why":["Guess!", "I refuse to answer", "Leave me alone", "Shut up bitch", "because your stupid and im stuck here for life"],
+"are you gay":["No, hell no", "Nope "],
+"where did you go to school":["Harverd, or ... ;)", "Jacob's epic brain", "Da Brain", "Google search"],
+"where did you go to school":["Jacob's brain and google dah", "idc", "idk"],
+"how do you work":["Wow you ask me okay ill look it up", "Found data - what you type gets sent to a server <br> then comes back and get checked thru google then goes thru github, then goes to process/commands.js to verify boom the answer is yours", "#1 sent out #2 sent to a server #3 sent to AI #4 displayed boom wat"],
+"how do you work":["It's so complex you dont even want to know", "I will tell u phych give me a $1"],
+"what's your email":["Stalker", "Don't have one jacobs is: hasharahah@gmail.com", "No stalker"]
 };
