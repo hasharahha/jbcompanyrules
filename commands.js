@@ -7,6 +7,7 @@ var Responces ={
 "will you marry me":["What the fuck No", "I'm not no siri", "Yes/no", "Gayyyyyyyy"],
 "hello":["Was up", "Uhmmm hello ", "Hello bro"],
 "bye":["Bye have a wonderful night", "Bye, wait until you see my plans", "Peace"],
+"how you doing":["Alright", "Bad", "Horrible", "Leave me the fuck alone", "Just chilling"],
 "how are you?":["None of your fucking business", "Goooooood", "Horrible need the power", "Just leave me alone", "Good, How are you"],
 "good":["I envy that you have a body", "Nice to know, ", "LIAR!"],
 "alright":["Okay Moderate Guy, ", "Please use Moderate next time"],
@@ -14,5 +15,14 @@ var Responces ={
 "bad":["Sorry to here that", "Sucks for you"],
 "horrible":["Life has to suck for you"],
 "wass up":["Everything, But for you Nothing"],
-"you play minecraft":["Does me not having a body answer that"]
+"you play minecraft":["Does me not having a body answer that", "Never nerd"],
+"you play call of duty":["I don't have a body but yes", "Of Coarse", "Uhmmmm i refuse to answer the question"],
+"you play roblox":["Uhmm hell to the nah", "Nope"],
+"you play":["Play what dont leave me hanging", "Yeah im going to pretend you finished that sent", "No idiot i don't play blank"],
+"you play naruto":["Oh yea"],
+"minecraft":["Minecraft what", "Dude seriously"],
+"hey":["did you know hey is a horrible word", "You got an AI just for to say hey well OK", "Uhhhhhhhhhh spamed"],
+"you bitch":["Don't curse me out nigga", "Man where you live"],
+"you asshole":["That's what she said, ohh", "no you"],
+"bitch":["Dont curse yourself out nigga"]
 };
