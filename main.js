@@ -13,7 +13,7 @@ function ProcCmd(){
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
   system.log("You: "+command);
-  var Randkey = Math.floor(Math.random()*3);
+  var Randkey = eval(Math.random()*Responces[Cmd].length);
   if(Responces[Cmd]){
     var answer = Responces[Cmd][RandKey];
     system.log("Jarvis: "+answer);
