@@ -79,7 +79,7 @@ var Responces ={
 "who is your girlfriend":["google-bot"],
 "who is your girlfriend?":["google-bot"],
 "who is your girl friend":["google-bot"],
-"who is your girl friend?":["google-bot"]
+"who is your girl friend?":["google-bot"],
 "who is your best friend":["The googles's developers"]
 };
 
