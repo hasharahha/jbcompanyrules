@@ -2,7 +2,7 @@
 var Cache =[];
 var OPS =["Jacob", "Devon"]
 var command;
-va answer;
+var answer;
 var Cmd;
 var allow ="true"
 var energy =0;
