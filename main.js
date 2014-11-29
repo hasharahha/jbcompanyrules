@@ -16,9 +16,9 @@ function ProcCmd(){
   system.log("You: "+command);
   Rnd = Math.floor(Math.random()*16);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  answer = ErrorResponce["msg"][Rnd];
+  answer = ErrorResponce[msg][Rnd];
   if(Responces[Cmd]===undefined){
-    answer = ErrorResponce["msg"][Rnd];
+    answer = ErrorResponce[msg][Rnd];
   }
   else if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
