@@ -86,6 +86,7 @@ var Responces ={
 "what is the pathigrium therorem":["it is : a2 + b2 = c2"],
 "the answer to life":["42"],
 "the answer to life and everything":["42"], 
+"how do you feel about fergusion":["I feel like the cop wasn't in the wrong but i also feel like this case is getting way more attention then it needs", "I don't thin the cop was in the wrong", "They need more evidence before they make their decision"]
 };
 
 //if you are looking at this document don't ask why.
