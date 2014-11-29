@@ -19,10 +19,11 @@ function ProcCmd(){
   if(Responces[Cmd] != undefined){
     system.log("Jarvis: "+answer);
   }
-  if(CMD[0]=="/calculate"){
-    var Ans = eval(CMD[1]);
-    system.log("Jarvis: "+Ans);
-  }
+else{
+answer = ErrorResponces[msg][Rnd];
+system.log("Jarvis: "+answer);
+}
+
   //basic required Commands
 }
 
