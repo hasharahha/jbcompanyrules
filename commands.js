@@ -96,7 +96,8 @@ var Responces ={
 "who created you":["Jacob Adrien Bondley"],
 "who created you?":["Jacob Adrien Bondley"],
 "how old is your creater":["14 yrs"],
-"what time is it":["Adventure time"]
+"what time is it":["Adventure time"],
+"how are you doing":["Good", "bad", "Horrible", "Im alright how about you", "Good, You?", "Not good need more power", "Ehhh im not that good how about you"]
 };
 
 //if you are looking at this document don't ask why.
