@@ -17,10 +17,10 @@ function ProcCmd(){
   Rnd = Math.floor(Math.random()*16);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   answer = ErrorResponce["msg"][Rnd];
-  if(Responces[Cmd]==="undefined"){
+  if(Responces[Cmd]===undefined){
     answer = ErrorResponce["msg"][Rnd];
   }
-  if(Responces[Cmd]){
+  else if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
   }
   system.log("Jarvis: "+answer);
