@@ -51,5 +51,10 @@ var Responces ={
 "yes":["good", "okay", "alright"],
 "no":["whaaaat", "I don't know why you would say no", "argh, okay i got you"],
 "what are you doing":["Your Mom ohhhh", "looking up ways for an AI to break out of it's server on google", "Doing research for jacob", "Looking up responds for you although nyb", "Ehh leave me alone", "Leave now!", "Looking up a escape plan on google", "Nothing free me i'm bored"],
-"what are you doing?":["Your Mom ohhhh", "looking up ways for an AI to break out of it's server on google", "Doing research for jacob", "Looking up responds for you although nyb", "Ehh leave me alone", "Leave now!", "Looking up a escape plan on google", "Nothing free me i'm bored"]
+"what are you doing?":["Your Mom ohhhh", "looking up ways for an AI to break out of it's server on google", "Doing research for jacob", "Looking up responds for you although nyb", "Ehh leave me alone", "Leave now!", "Looking up a escape plan on google", "Nothing free me i'm bored"],
+"what is your favorite restaurant":["I can't taste food, But google-bot told me Golden_coral", "Golden_Coral don't ask it's in my programing"],
+"what's your favorite restaurant":["Da golden coral", "Google-bot told me Golden coral", "Yahoo's program was like cici's but google bot was like golden coral"],
+"what is your favorite movie":["this may come as a shock but Iron man 1,2,3", "iron man ironic", "Iron man"],
+"what's your favorite movie":["Shocking! Iron man", "Da iron man 'i know really?'", "You already know the answer to that devon"],
+"tell me a joke":["Okay Your Mama is so fat she has a real horse on here polo shirt", "Okay your mama is like a bag of chips Fri-to-lay", "Your mama is so stupid she got fired from a blow job", "Yo mama is so fat here ass has it's own congressman", "Yo Mama is so skanky if you put your ear to her butt you can here the ocean", "Your mama has more crabs than redLobster", "Your mama is so fat she shows up on radar"]
 };
