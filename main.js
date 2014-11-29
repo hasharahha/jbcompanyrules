@@ -19,6 +19,8 @@ function ProcCmd(){
   var errormsg = ErrorResponce["msg"][Rnd];
   if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
+  }
+  else{
     answer = errormsg;
   }
   system.log("Jarvis: "+answer);
