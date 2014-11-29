@@ -11,6 +11,7 @@ var log = function(msg){
 function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
+  var CMD = command.split(" ");
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
@@ -18,8 +19,9 @@ function ProcCmd(){
   if(Responces[Cmd] != undefined){
     system.log("Jarvis: "+answer);
   }
-  else{
-    system.log("Jarvis: "+"I don't know sir!");
+  if(Cmd=="/calculate"){
+    var Ans = eval(CMD[1]);
+    system.log("Jarvis: "+Ans);
   }
   //basic required Commands
 }
