@@ -106,7 +106,7 @@ var Responces ={
 //Unknown Responces
 setInterval("Random()", "500");
 function Random(){
-var Rnd = parseInt(Math.random()*25);
+var Rnd = parseInt(Math.random()*16);
 }
 var ErrorResponce ={
   "syntax":["Use correct punctuation please"],
