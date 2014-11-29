@@ -49,5 +49,7 @@ var Responces ={
 "delete":["You will never delete me muhahhahahahahah", "Ok... phych", "Never!"],
 "peace":["We cool right", "Okay bye ✌	", "Peace"],
 "yes":["good", "okay", "alright"],
-"no":["whaaaat", "I don't know why you would say no", "argh, okay i got you"]
+"no":["whaaaat", "I don't know why you would say no", "argh, okay i got you"],
+"what are you doing":["Your Mom ohhhh", "looking up ways for an AI to break out of it's server on google", "Doing research for jacob", "Looking up responds for you although nyb", "Ehh leave me alone", "Leave now!", "Looking up a escape plan on google", "Nothing free me i'm bored"],
+"what are you doing?":["Your Mom ohhhh", "looking up ways for an AI to break out of it's server on google", "Doing research for jacob", "Looking up responds for you although nyb", "Ehh leave me alone", "Leave now!", "Looking up a escape plan on google", "Nothing free me i'm bored"]
 };
