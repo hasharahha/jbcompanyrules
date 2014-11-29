@@ -97,7 +97,9 @@ var Responces ={
 "who created you?":["Jacob Adrien Bondley"],
 "how old is your creater":["14 yrs"],
 "what time is it":["Adventure time"],
-"how are you doing":["Good", "bad", "Horrible", "Im alright how about you", "Good, You?", "Not good need more power", "Ehhh im not that good how about you"]
+"how are you doing":["Good", "bad", "Horrible", "Im alright how about you", "Good, You?", "Not good need more power", "Ehhh im not that good how about you"],
+undefined:["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "noooooo"],
+"undefined":["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "nooooo", "yes"]
 };
 
 //if you are looking at this document don't ask why.
