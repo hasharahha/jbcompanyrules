@@ -21,7 +21,7 @@ function ProcCmd(){
     system.log("Jarvis: "+answer);
   }
 else{
-answer = ErrorResponces[msg][Rnd];
+answer = ErrorResponce[msg][Rnd];
 system.log("Jarvis: "+answer);
 }
 
