@@ -24,5 +24,17 @@ var Responces ={
 "hey":["did you know hey is a horrible word", "You got an AI just for to say hey well OK", "Uhhhhhhhhhh spamed"],
 "you bitch":["Don't curse me out nigga", "Man where you live"],
 "you asshole":["That's what she said, ohh", "no you"],
-"bitch":["Dont curse yourself out nigga"]
+"bitch":["Dont curse yourself out nigga"],
+"asshole":["Don't insult yourself"],
+"you motherfucker":["Jokes on you I don't have a mom", "Define: Mother oh your mother ok", "Your mom all night, Death"],
+"motherfucker":["What? you fuck you mom"],
+"nigga":["Do i sound black", "Racist", "Hey blackdynamite get this fool"],
+"/calculate":["I am not a calculater you asked for jarvis", "No i refuse", "Never", "wtf"],
+"/help":["No list muhhahahahahha", "Nope i refuse"],
+"armor up":["Hell no, you not the suit owner", "The suit is located at 6247 lake brandt Summerfield", "Erro you ain't owner", "cant find suit"],
+"/op devon":["Nope, you aren't allowed jacob told me so", "No opping yourself"],
+"/deop jacob":["Devon those days are over", "what the f did i just say"],
+"/deop hasharahha14":["No, Jacob told me not to"],
+"beam me up scotty":["Hell no", "Hell No", "No"],
+"google":["i don't do that"]
 };
