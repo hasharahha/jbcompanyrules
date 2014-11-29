@@ -91,7 +91,7 @@ var Responces ={
 "who was your creater?":["Jacob Adrien Bondley],
 "who's your creater":["Jacob Adrien Bondley"],
 "who's your creater?":["Jacob Adrien Bondley"],
-"who created you?":["Jacob Adrien Bondley],
+"who created you?":["Jacob Adrien Bondley"],
 "who created you":["Jacob Adrien Bondley"],
 "who created you":["Jacob Adrien Bondley"],
 "who created you?":["Jacob Adrien Bondley"],
