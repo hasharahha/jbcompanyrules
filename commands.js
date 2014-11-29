@@ -101,3 +101,14 @@ var Responces ={
 };
 
 //if you are looking at this document don't ask why.
+
+
+//Unknown Responces
+setInterval("Random()", "500");
+function Random(){
+var Rnd = parseInt(Math.random()*25);
+}
+var ErrorResponce ={
+  "syntax":["Use correct punctuation please"],
+  "msg":["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... "]
+}
