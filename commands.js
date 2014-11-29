@@ -42,5 +42,12 @@ var Responces ={
 "where do you live":["Stalker", "307 ward st. Highpoint PC", "None of your beeswax"],
 "hack":["You want me to hack", "Okay their tracking you"],
 "//wand":["I'm not a console ima weiner, what", "This isn't minecraft", "Wand, let me guess minecraft muhahahahahha"],
-"eat":["ok yumm yumm yumm", "Im not hungry", "eat, im a AI Bitch", ";) got it"]
+"eat":["ok yumm yumm yumm", "Im not hungry", "eat, im a AI Bitch", ";) got it"],
+"shut up":["Never bitch", "You kidding right", "You shut-up", "Maybe send 25$ to jarvis paypal and i won't tell"],
+"study":["For what"],
+"call mohjang":["hell no"],
+"delete":["You will never delete me muhahhahahahahah", "Ok... phych", "Never!"],
+"peace":["We cool right", "Okay bye ✌	", "Peace"],
+"yes":["good", "okay", "alright"],
+"no":["whaaaat", "I don't know why you would say no", "argh, okay i got you"]
 };
