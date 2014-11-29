@@ -19,7 +19,7 @@ function ProcCmd(){
   if(Responces[Cmd] != undefined){
     system.log("Jarvis: "+answer);
   }
-  if(Cmd=="/calculate"){
+  if(CMD[0]=="/calculate"){
     var Ans = eval(CMD[1]);
     system.log("Jarvis: "+Ans);
   }
