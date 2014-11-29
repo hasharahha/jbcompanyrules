@@ -14,6 +14,7 @@ function ProcCmd(){
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
   system.log("You: "+command);
+  Rnd = Math.floor(Math.random()*16);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   answer = ErrorResponce[Cmd][Rnd];
   if(Responces[Cmd]){
