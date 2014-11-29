@@ -16,7 +16,7 @@ function ProcCmd(){
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  if(Responces[command.toLowerCase()]){
+  if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
     system.log("Jarvis: "+answer);
   }
