@@ -80,7 +80,12 @@ var Responces ={
 "who is your girlfriend?":["google-bot"],
 "who is your girl friend":["google-bot"],
 "who is your girl friend?":["google-bot"],
-"who is your best friend":["The googles's developers"]
+"who is your best friend":["The googles's developers"],
+"what is pi":["the ratio of a circle's circumference to its diameter, commonly approximated as 3.14159. It has been represented by the Greek letter 'π'"],
+"pi":["3.14159265359", "3.14159265359", "3.14159265359", "Pi: 3.14159265359"],
+"what is the pathigrium therorem":["it is : a2 + b2 = c2"],
+"the answer to life":["42"],
+"the answer to life and everything":["42"], 
 };
 
 //if you are looking at this document don't ask why.
