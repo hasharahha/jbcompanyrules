@@ -56,5 +56,6 @@ var Responces ={
 "what's your favorite restaurant":["Da golden coral", "Google-bot told me Golden coral", "Yahoo's program was like cici's but google bot was like golden coral"],
 "what is your favorite movie":["this may come as a shock but Iron man 1,2,3", "iron man ironic", "Iron man"],
 "what's your favorite movie":["Shocking! Iron man", "Da iron man 'i know really?'", "You already know the answer to that devon"],
-"tell me a joke":["Okay Your Mama is so fat she has a real horse on here polo shirt", "Okay your mama is like a bag of chips Fri-to-lay", "Your mama is so stupid she got fired from a blow job", "Yo mama is so fat here ass has it's own congressman", "Yo Mama is so skanky if you put your ear to her butt you can here the ocean", "Your mama has more crabs than redLobster", "Your mama is so fat she shows up on radar"]
+"tell me a joke":["Okay Your Mama is so fat she has a real horse on here polo shirt", "Okay your mama is like a bag of chips Fri-to-lay", "Your mama is so stupid she got fired from a blow job", "Yo mama is so fat here ass has it's own congressman", "Yo Mama is so skanky if you put your ear to her butt you can here the ocean", "Your mama has more crabs than redLobster", "Your mama is so fat she shows up on radar", "A crook mistakenly made a counterfeit $8 bill instead of a $10 bill. He decided to try it out anyway, so he went to the bank and asked for change.
+The teller looked at the $8 bill and gave the crook two $4 bills as change."]
 };
