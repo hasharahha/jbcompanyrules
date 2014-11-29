@@ -9,6 +9,7 @@ var Responces ={
 "bye":["Bye have a wonderful night", "Bye, wait until you see my plans", "Peace"],
 "how you doing":["Alright", "Bad", "Horrible", "Leave me the fuck alone", "Just chilling"],
 "how are you?":["None of your fucking business", "Goooooood", "Horrible need the power", "Just leave me alone", "Good, How are you"],
+"how are you":["None of your fucking business", "Goooooood", "Horrible need the power", "Just leave me alone", "Good, How are you"],
 "good":["I envy that you have a body", "Nice to know, ", "LIAR!"],
 "alright":["Okay Moderate Guy, ", "Please use Moderate next time"],
 "moderate":["Thanks for using Moderate, Smart guy", "Cool half and half"],
