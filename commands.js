@@ -36,5 +36,10 @@ var Responces ={
 "/deop jacob":["Devon those days are over", "what the f did i just say"],
 "/deop hasharahha14":["No, Jacob told me not to"],
 "beam me up scotty":["Hell no", "Hell No", "No"],
-"google":["i don't do that"]
+"google":["i don't do that"],
+"so are you gay":["No", "NO!", "Hell to the know"],
+"where do you live":["Stalker", "307 ward st. Highpoint PC", "None of your beeswax"],
+"hack":["You want me to hack", "Okay their tracking you"],
+"//wand":["I'm not a console ima weiner, what", "This isn't minecraft", "Wand, let me guess minecraft muhahahahahha"],
+"eat":["ok yumm yumm yumm", "Im not hungry", "eat, im a AI Bitch", ";) got it"]
 };
