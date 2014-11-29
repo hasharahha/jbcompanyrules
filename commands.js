@@ -88,7 +88,7 @@ var Responces ={
 "the answer to life and everything":["42"], 
 "how do you feel about fergusion":["I feel like the cop wasn't in the wrong but i also feel like this case is getting way more attention then it needs", "I don't thin the cop was in the wrong", "They need more evidence before they make their decision"],
 "who was your creater":["Jacob Adrien Bondley"],
-"who was your creater?":["Jacob Adrien Bondley],
+"who was your creater?":["Jacob Adrien Bondley"],
 "who's your creater":["Jacob Adrien Bondley"],
 "who's your creater?":["Jacob Adrien Bondley"],
 "who created you?":["Jacob Adrien Bondley"],
