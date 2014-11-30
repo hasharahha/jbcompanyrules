@@ -18,7 +18,8 @@ function ProcCmd(){
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   var errormsg = ErrorResponce["msg"][Rnd];
   if(typeof Responces[Cmd] === "undefined"){
-    answer = errormsg;
+    Cmd ="undefined"
+    answer = Responces[Cmd][RandKey];
   }
   else if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
