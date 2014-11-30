@@ -124,7 +124,8 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "what is your favorite food?":["Chicken pot pie"],
 "are you rich":["Yep i got 2$"],
 "error":["What you want to go there"],
-"blah":["Real mature, Who are you", "That's a stupid word", "Can't find definition", "crash"]
+"blah":["Real mature, Who are you", "That's a stupid word", "Can't find definition", "crash"],
+"blah!":["You are a fail at life", "just give up", "Uhhhhhhhhh, OK"]
 };
 
 //if you are looking at this document don't ask why.
