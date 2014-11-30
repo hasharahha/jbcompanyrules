@@ -19,16 +19,13 @@ function ProcCmd(){
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
   system.log("You: "+command);
-  Rnd = parseInt(Math.random()*10);
+  var Rnd = parseInt(Math.random()*ErrorResponce["msg"].length);
   var JJA = parseInt(Math.random()*3);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   errormsg = ErrorResponce["msg"][Rnd];
   answer = errormsg;
   if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
-  }
-  else{
-    answer ="Ehhhhhhhhhhhhh"
   }
   system.log("Jarvis: "+answer);
 
