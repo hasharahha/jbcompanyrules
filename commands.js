@@ -121,7 +121,10 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "are you famous":["No, not yet", "I have my own movie but they didn't name it right.... wait a sec", "No/yes", "N/A"],
 "for the honour of greyskull":["I have the power", "You have the power", "we have the power"],
 "adultswim":["is epic"],
-"what is your favorite food?":["Chicken pot pie"]
+"what is your favorite food?":["Chicken pot pie"],
+"are you rich":["Yep i got 2$"],
+"error":["What you want to go there"],
+"blah":["Real mature, Who are you", "That's a stupid word", "Can't find definition", "crash"]
 };
 
 //if you are looking at this document don't ask why.
