@@ -115,7 +115,13 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "i like you":["Akward"],
 "do you like me":["I refuse to answer question, No", "Sorry nope", "I'm an AI thats just wrong", "Rape", "Rape!"],
 "do you like me?":["No!"],
-"do you have children":["No, 3 2 boys 1 girl, Dumbass", "No , no body dahhh"]
+"do you have children":["No, 3 2 boys 1 girl, Dumbass", "No , no body dahhh"],
+"what powers you":["HTML5, Javascript", "My love for [HTML]", "Github, HTML, Javascript, Object arrays the usual"],
+"are you smart":["I wanna be the very best like ....", "Doaaaaaa", "Yes", "Yep i know your not though"],
+"are you famous":["No, not yet", "I have my own movie but they didn't name it right.... wait a sec", "No/yes", "N/A"],
+"for the honour of greyskull":["I have the power", "You have the power", "we have the power"],
+"adultswim":["is epic"],
+"what is your favorite food?":["Chicken pot pie"]
 };
 
 //if you are looking at this document don't ask why.
