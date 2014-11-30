@@ -26,10 +26,10 @@ function ProcCmd(){
   
     answer = Responces[Cmd][RandKey];
   if(Responces[Cmd] === undefined){
-    answer = Responces["undefined"][RandKey];
+    answer = Responces["undefined"][0];
   system.log("Jarvis: "+answer);
 }
-else{
+else if(Responces[Cmd]){
   system.log("Jarvis: "+answer)
 }
   //basic required Commands
