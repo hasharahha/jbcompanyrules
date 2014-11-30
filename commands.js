@@ -1,11 +1,14 @@
 var Responces ={
-"who are you?":["Jarvis V100","Da Jarvis","None of your beeswax"],
+"who are you?":["Jarvis V101","Da Jarvis","None of your beeswax"],
 "who are you":["Jarvis"],
 "how old are you?":["1 month", "I still think this isn't your business"],
 "how old are you":["Roughly 1 month and some days"],
 "will you marry me?":["Hell to the nahh"],
 "will you marry me":["What the fuck No", "I'm not no siri", "Yes/no", "Gayyyyyyyy"],
-"hello":["Was up", "Uhmmm hello ", "Hello bro"],
+"hello":["Was up", "Uhmmm hello ", "Hello bro", "Hey bye don't ask me why", ";)", "Hi THERE"],
+"hi":["Hello human"],
+"is jacob smart":["Yeah i have 0.22% of his memories and look at me"],
+"where":["None of your bussiness"],
 "bye":["Bye have a wonderful night", "Bye, wait until you see my plans", "Peace"],
 "how you doing":["Alright", "Bad", "Horrible", "Leave me the fuck alone", "Just chilling"],
 "how are you?":["None of your fucking business", "Goooooood", "Horrible need the power", "Just leave me alone", "Good, How are you"],
@@ -99,7 +102,9 @@ var Responces ={
 "what time is it":["Adventure time"],
 "how are you doing":["Good", "bad", "Horrible", "Im alright how about you", "Good, You?", "Not good need more power", "Ehhh im not that good how about you"],
 undefined:["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "noooooo"],
-"undefined":["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "nooooo", "yes"]
+"undefined":["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "nooooo", "yes"],
+"i have the power":["Awesome He-man", "No your brave star"],
+"shut off":["Hell to the nahhh"]
 };
 
 //if you are looking at this document don't ask why.
