@@ -25,7 +25,7 @@ function ProcCmd(){
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   
     answer = Responces[Cmd][RandKey];
-  if(Responces[Cmd] != "undefined"){
+  if(Responces[Cmd] !=null){
   system.log("Jarvis: "+answer);
 }
 else{
