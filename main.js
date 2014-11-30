@@ -28,7 +28,7 @@ function ProcCmd(){
     answer = Responces[Cmd][RandKey];
   }
   else{
-    answer =error["E"][JJA];
+    answer ="Ehhhhhhhhhhhhh"
   }
   system.log("Jarvis: "+answer);
 
