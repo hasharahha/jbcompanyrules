@@ -26,7 +26,7 @@ function ProcCmd(){
   
     answer = Responces[Cmd][RandKey];
   if(Responces[Cmd] === undefined){
-    answer = Responces["undefined"][0];
+    answer ="Yeah ok. what ever";
   system.log("Jarvis: "+answer);
 }
 else if(Responces[Cmd]){
