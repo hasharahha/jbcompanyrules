@@ -23,13 +23,9 @@ function ProcCmd(){
   var JJA = parseInt(Math.random()*3);
   var RandKeyss = parseInt(Math.random()*4);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  answer = Responces["undefined"][Randkeyss];
-  if(Responces[Cmd]){
+  
     answer = Responces[Cmd][RandKey];
-  }
-  else{
-    alert("Noooo")
-  }
+  
   system.log("Jarvis: "+answer);
 
   //basic required Commands
