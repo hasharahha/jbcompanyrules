@@ -10,12 +10,17 @@ var energy =0;
 var log = function(msg){
   confirm("Console: \n"+msg);
 };
+var error ={
+  "E":["Sure", "Whatt ever", "Ok ill pretend i know what your talking about"],
+  "J":["Jacob"]
+}
 function ProcCmd(){
   energy -=1;
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   Rnd = parseInt(Math.random()*10);
+  var JJA = parseInt(Math.random()*3);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   errormsg = ErrorResponce["msg"][Rnd];
   answer = errormsg;
@@ -23,7 +28,7 @@ function ProcCmd(){
     answer = Responces[Cmd][RandKey];
   }
   else{
-    answer = errormsg;
+    answer =error["E"][JJA];
   }
   system.log("Jarvis: "+answer);
 
