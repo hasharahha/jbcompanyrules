@@ -27,6 +27,9 @@ function ProcCmd(){
   if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
   }
+  else{
+    alert("Noooo")
+  }
   system.log("Jarvis: "+answer);
 
   //basic required Commands
