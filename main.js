@@ -4,6 +4,7 @@ var OPS =["Jacob", "Devon"]
 var command;
 var answer;
 var Cmd;
+var errormsg =null;
 var allow ="true"
 var energy =0;
 var log = function(msg){
@@ -14,13 +15,11 @@ function ProcCmd(){
   command = document.getElementById("CommandPrompt").value;
   Cmd = command.toLowerCase();
   system.log("You: "+command);
-  Rnd = parseInt(Math.random()*16);
+  Rnd = parseInt(Math.random()*10);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  var errormsg = ErrorResponce["msg"][Rnd];
-  if(answer === "undefined"){
-    answer = errormsg;
-  }
-  else if(Responces[Cmd]){
+  errormsg = ErrorResponce["msg"][Rnd];
+  answer = errormsg;
+  if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
   }
   else{
