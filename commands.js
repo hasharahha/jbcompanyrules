@@ -104,7 +104,13 @@ var Responces ={
 undefined:["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "noooooo"],
 "undefined":["Yeah water ever", "That's what she said", "what about it", "I am going to act like i know what you said", "What do you mean?", "Okay", "what about it", "Cool", "Did you know i knoe ur no bot", "Are you my paul cleverbot", "What the fuck", "How are you doing", "What, Bull", "Minecraft time", "Okay what ever", "Sorry jarvis can't think right now", "... ", "nooooo", "yes"],
 "i have the power":["Awesome He-man", "No your brave star"],
-"shut off":["Hell to the nahhh"]
+"shut off":["Hell to the nahhh"],
+"do you have a girlfriend":["yes, Google-bot"],
+"do you have a girl friend":["yes, Google-bot"],
+"are you male":["Yes i am"],
+"are you female":["Hell no"],
+"are you a boy":["Yes, Dah", "Yep", "yep", "Uhh huh"],
+
 };
 
 //if you are looking at this document don't ask why.
