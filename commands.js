@@ -110,7 +110,12 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "are you male":["Yes i am"],
 "are you female":["Hell no"],
 "are you a boy":["Yes, Dah", "Yep", "yep", "Uhh huh"],
-
+"are you a girl":["Nope", "The answer to your question is hell no", "Nope", "never"],
+"are you gay":["Nope", "Sorry but no"],
+"i like you":["Akward"],
+"do you like me":["I refuse to answer question, No", "Sorry nope", "I'm an AI thats just wrong", "Rape", "Rape!"],
+"do you like me?":["No!"],
+"do you have children":["No, 3 2 boys 1 girl, Dumbass", "No , no body dahhh"]
 };
 
 //if you are looking at this document don't ask why.
