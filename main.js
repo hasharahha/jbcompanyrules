@@ -22,7 +22,6 @@ function ProcCmd(){
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
   if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
-  system.log("Jarvis: "+answer);
 }
   system.log("Jarvis: "+answer)
 
