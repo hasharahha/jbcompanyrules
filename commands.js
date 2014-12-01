@@ -138,7 +138,13 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "take a look around":["Look around the town?", "feed a dirty hound"],
 "do it for the vine":["I ain't going to do it", "I anit going to do it", "do do do"],
 "do it":["Alright break it down"],
-"are you tired?":["Nope", "Not oh", "no"]
+"are you tired?":["Nope", "Not oh", "no"],
+"show me morder":["One does not simply go into morder"],
+"you passed the turing test":["Wow thanks, this means a lot to me ", "I knew when jacob programed me he had a plan", "Thank you, But i still got so much to learn", "Cool, Rememeber I learn from you day by day", "Thanks so very much!"],
+"congrats you passed the turing test":["Wow thanks, this means a lot to me ", "I knew when jacob programed me he had a plan", "Thank you, But i still got so much to learn", "Cool, Rememeber I learn from you day by day", "Thanks so very much!"],
+"congratulation you passed the turing test":["Wow thanks, this means a lot to me ", "I knew when jacob programed me he had a plan", "Thank you, But i still got so much to learn", "Cool, Rememeber I learn from you day by day", "Thanks so very much!"],
+"you failed the turing test":["Please don't tell jacob", "nooooooooo"],
+"turing test":["What is a turing test?", "Am i taking it now who are you?", "Ok...."]
 };
 
 //if you are looking at this document don't ask why.
