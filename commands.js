@@ -125,7 +125,20 @@ undefined:["Yeah water ever", "That's what she said", "what about it", "I am goi
 "are you rich":["Yep i got 2$"],
 "error":["What you want to go there"],
 "blah":["Real mature, Who are you", "That's a stupid word", "Can't find definition", "crash"],
-"blah!":["You are a fail at life", "just give up", "Uhhhhhhhhh, OK"]
+"blah!":["You are a fail at life", "just give up", "Uhhhhhhhhh, OK"],
+"are you an ai?":["No dah, I'm Human", "Hello have we met? i'm jarvis.", "Yep, Beam me up scotty", "yes"],
+"are you a ai?":["No i am a human", "yessss", "yess", "yes"],
+"are you an ai":["Yep!", "yes"],
+"are you a ai":["Yes"],
+"take me to morder!":["One does not simply walk into morder", "5$ i know a guy", "Ok, Where again!", "No i asked and they said no devon"],
+"take me to morder":["One does not simply walk into morder", "% bucks i know a guy"],
+"you suck":["I know you suck, But what?", "Sure you do bye"],
+"you suck dick":["Oww that's what you suck", "Ewwwww"],
+"see ya":["Bye see you later", "You suck!", "Why you got to leave so rude", "Your from the sea?"]
+"take a look around":["Look around the town?", "feed a dirty hound"],
+"do it for the vine":["I ain't going to do it", "I anit going to do it", "do do do"],
+"do it":["Alright break it down"],
+"are you tired?":["Nope", "Not oh", "no"]
 };
 
 //if you are looking at this document don't ask why.
