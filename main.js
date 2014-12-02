@@ -22,8 +22,9 @@ function ProcCmd(){
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
     answer = Responces[Cmd][RandKey];
   system.log("Jarvis: "+answer)
-if(answer === false){
-  alert("Error")
+if(typeof Cmd === "undefined"){
+  var rnd = parseInt(Math.random()*4);
+  system.log("Jarvis: "+Responces["undefined"][rnd])
 }
   //basic required Commands
 }
