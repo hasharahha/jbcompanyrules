@@ -24,9 +24,12 @@ function ProcCmd(){
     answer = Responces[Cmd][RandKey];
   system.log("Jarvis: "+answer);
   }
-  else{
+  else if(typeof Responces[Cmd] === "undefined"){
       var rnd = parseInt(Math.random()*4);
   system.log("Jarvis: "+Responces["undefined"][rnd]);
+  }
+  else{
+    system.log("Jarvis:"+" Okay....")
   }
 }
 
