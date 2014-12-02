@@ -33,10 +33,9 @@ function ProcCmd(){
   }
 }
 
-document.body.style.display="none";
 function Unlock(event){
   if(74 === event.keyCode){
-    document.body.style.display="block";
+    document.body.style.display='block';
   }
 }
 
