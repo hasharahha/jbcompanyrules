@@ -33,6 +33,12 @@ function ProcCmd(){
   }
 }
 
+document.body.style.display='none';
+function Unlock(event){
+  if(74 === event.keyCode){
+    document.body.style.display='block';
+  }
+}
 function save(){
   Cache[1] = document.getElementById("userdata").value;
   localStorage.setItem("save", Cache[1]);
