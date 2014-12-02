@@ -20,9 +20,10 @@ function ProcCmd(){
   Cmd = command.toLowerCase();
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
-  if(Responces[Cmd]){
     answer = Responces[Cmd][RandKey];
-}
+    if(answer === undefined){
+    answer =  Responced["undefined"][RandKey];
+    }
   system.log("Jarvis: "+answer)
 
   //basic required Commands
