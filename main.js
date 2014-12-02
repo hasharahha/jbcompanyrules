@@ -21,9 +21,10 @@ function ProcCmd(){
   system.log("You: "+command);
   var RandKey = parseInt(Math.random()*Responces[Cmd].length);
     answer = Responces[Cmd][RandKey];
-    alert("Jarvis"+answer)
   system.log("Jarvis: "+answer)
-
+if(answer === false){
+  alert("Error")
+}
   //basic required Commands
 }
 
