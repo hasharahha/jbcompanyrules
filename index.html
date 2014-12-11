@@ -3,19 +3,18 @@
 <head>
   <title>Jarvis[Unleashed]</title>
   <script>
-  setTimeout("msg()", 11000);
+  setTimeout("msg()", 9000);
     function msg(){
-      if(localStorage.getItem("Dat")=="true"){
-       alert("You have been here before I'm afraid You have to leave")
-       document.body.style.display='none';
-      }
-      else{
-      alert("I know everything, I am god");
-      localStorage.setItem("Dat", "true");
-      }
+      document.getElementById("jarvis").style.display='none';
+      document.getElementById("jarvis").style.display='block';
     }
   </script>
 </head>
 <body>
+<div id="jarvis">
   <img src="https://dl.dropboxusercontent.com/s/r4cv4tdlnyd6ml4/giphy.gif" height="600" width="900">
+</div>
+<div id="Nope" style="display: none;">
+  <h3>Nothing to see here I left, Don't tell jacob</h3>
+</div>
 </body>
