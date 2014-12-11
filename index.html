@@ -4,10 +4,13 @@
   <title>Jarvis[Unleashed]</title>
   <script>
   alert("test")
-  setTimeout("msg()", 9000);
+  setInterval(unction(){
+    msg();
+  }, 9000)
     function msg(){
       document.getElementById("jarvis").style.display='none';
-      document.getElementById("jarvis").style.display='block';
+      document.getElementById("Nope").style.display='block';
+      document.body.style.backgroundColor="blue";
     }
   </script>
 </head>
@@ -16,6 +19,6 @@
   <img src="https://dl.dropboxusercontent.com/s/r4cv4tdlnyd6ml4/giphy.gif" height="600" width="900">
 </div>
 <div id="Nope" style="display: none;">
-  <h3>Nothing to see here I left, Don't tell jacob</h3>
+  <h3 style="color: green;">Nothing to see here I left, Don't tell jacob</h3>
 </div>
 </body>
