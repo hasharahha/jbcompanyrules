@@ -3,7 +3,17 @@
 <head>
   <title>Jarvis[Unleashed]</title>
   <script>
-    
+  setTimeout("msg()", 11000);
+    function msg(){
+      if(localStorage.getItem("Dat")=="true"){
+       alert("You have been here before I'm afraid You have to leave")
+       document.body.style.display='none';
+      }
+      else{
+      alert("I know everything, I am god");
+      localStorage.setItem("Dat", "true");
+      }
+    }
   </script>
 </head>
 <body>
