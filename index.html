@@ -2,23 +2,24 @@
 <html>
 <head>
   <title>Jarvis[Unleashed]</title>
-  <script>
-  alert("Leave now")
-  setInterval(unction(){
-    msg();
-  }, 9000);
-    function msg(){
-      document.getElementById("jarvis").style.display='none';
-      document.getElementById("Nope").style.display='block';
-      document.body.style.backgroundColor="blue";
-    }
-  </script>
 </head>
 <body style="background-color: black;">
 <div id="jarvis">
+<!--
   <img src="https://dl.dropboxusercontent.com/s/r4cv4tdlnyd6ml4/giphy.gif" height="600" width="900">
+  -->
+  <canvas id="jarvis" style="background-color: black;" height="600" width="900"></canvas>
 </div>
 <div id="Nope" style="display: none;">
   <h3 style="color: green;">Nothing to see here I left, Don't tell jacob</h3>
 </div>
 </body>
+<script type="text/javascript">
+  var canvas = document.getElementById("jarvis");
+  var ctx = canvas.getContext("2d");
+  var jarvis = new Image()
+  jarvis.src="https://dl.dropboxusercontent.com/s/r4cv4tdlnyd6ml4/giphy.gif";
+  jarvis.onload = function(){
+    ctx.drawImage(jarvis, 0, 0, 900, 600);
+  };
+</script>
